@@ -1,0 +1,72 @@
+@font-face {
+	font-family: basic-title-font;
+	src: url(fonts/basictitlefont.ttf);
+}
+body {
+	background-color: white;
+}
+
+#header {
+	margin-top: 60px;
+	margin-bottom: 45px;
+	text-align: center;
+}
+#header-menu ul {
+	text-align: center;
+	padding: 0px;
+	margin-top: 12px;
+	margin-bottom: 15px;
+}
+#header-menu li {
+	display: inline;
+	list-style-type: none;
+	padding-left: 9px;
+	padding-right: 9px;
+	font-family: basic-title-font, "basic title font", sans-serif;
+	text-transform: uppercase;
+	font-size: 1.3em;
+	color: #ababab;
+}
+#header-menu a {
+	color: inherit;
+	text-decoration: inherit;
+}
+#header-rule {
+	border: 0;
+	height: 1px;
+	width: 335px;
+	background: #cccccc;
+}
+
+#prev-post-link {
+	font-family: basic-title-font, "basic title font", sans-serif;
+	font-size: 5.5em;
+	color: #1d1d1d;
+	text-decoration: inherit;
+	position: fixed;
+	right: 85px;
+	top: 50%;
+	transform: translate(0, -25%);
+}
+#next-post-link {
+	font-family: basic-title-font, "basic title font", sans-serif;
+	font-size: 5.5em;
+	color: #1d1d1d;
+	text-decoration: inherit;
+	position: fixed;
+	left: 85px;
+	top: 50%;
+	transform: translate(0, -25%);
+}
+
+#full-image {
+	display: block;
+	margin: auto;
+}
+.thumbnail {
+	vertical-align: text-top;
+}
+.aligncenter {
+	display: block;
+	margin: auto;
+}
