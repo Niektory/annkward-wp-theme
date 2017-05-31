@@ -1,4 +1,6 @@
-<?php the_content(); ?>
+<div id="content-single">
+	<?php the_content(); ?>
+</div>
 
 <a id="next-post-link" href="<?php
 	$next_post = get_next_post();
