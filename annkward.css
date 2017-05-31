@@ -89,3 +89,9 @@ a:active {
 	display: block;
 	margin: auto;
 }
+.alignright {
+	float:right;
+}
+.alignleft {
+	float:left;
+}
