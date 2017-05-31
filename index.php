@@ -12,6 +12,8 @@
 ?php endwhile; endif; ?>
 -->
 
-<?php echo do_shortcode("[post_grid id='100']"); ?>
+<!--
+?php echo do_shortcode("[post_grid id='100']"); ?>
+-->
 <?php get_sidebar(); ?>
 <?php get_footer(); ?>
