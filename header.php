@@ -2,7 +2,7 @@
 	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-	<title><?php echo get_bloginfo( 'name' ); ?></title>
+	<title><?php if ( !is_front_page() ) the_title( '', ' - ' ); echo get_bloginfo( 'name' ); ?></title>
 	<meta name="description" content="<?php echo get_bloginfo( 'description' ); ?>" />
 	<meta name="viewport" content="width=device-width" />
 	<link href="<?php bloginfo('template_directory'); ?>/annkward.css" rel="stylesheet">
