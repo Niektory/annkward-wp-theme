@@ -11,7 +11,7 @@
 
 <body>
 <div id="header">
-	<a href="<?php bloginfo( 'wpurl' );?>">
+	<a href="<?php bloginfo( 'url' );?>">
 		<img id="headerimg" src="<?php header_image(); ?>"
 			alt="<?php echo get_bloginfo( 'name' ); ?>" />
 	</a>
